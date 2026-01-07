@@ -76,7 +76,7 @@ with st.sidebar:
     ctf_price_input = st.number_input(
         "今日周大福金价 (元/克)", 
         min_value=500.0, 
-        max_value=1000.0, 
+        max_value=5000.0, 
         value=736.0, # 这里的默认值你可以随时改
         step=1.0,
         format="%.1f"
